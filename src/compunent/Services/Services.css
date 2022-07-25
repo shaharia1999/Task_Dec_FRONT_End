@@ -1,0 +1,7 @@
+.services{
+    background-image: linear-gradient(to right, #00052D ,#000638, #010847);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:3rem 5rem;
+}

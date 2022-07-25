@@ -1,0 +1,6 @@
+.login{
+    background-image: linear-gradient(to right, #00052D ,#000638, #010847);
+    height: 100vh;
+    display: grid;
+    padding:3rem 5rem;
+}
