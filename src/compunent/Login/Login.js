@@ -40,7 +40,7 @@ const Login = () => {
                 </span>
                 </div>
                 <br />
-                <input type='text' value='Login' className='button'/>
+                <span  className='button' readonly>Login</span>
                </form>
             </div>
            </div>
