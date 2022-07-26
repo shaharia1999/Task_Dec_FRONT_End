@@ -2,6 +2,10 @@
     background-image: linear-gradient(to right, #00052D ,#000638, #010847);
     padding:3rem 5rem;
 }
+.services .air-animations{
+  
+    overflow: hidden;
+}
 .service-titel{
     display: flex;
     flex-flow: column ;
