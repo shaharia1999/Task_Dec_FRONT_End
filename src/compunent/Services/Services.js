@@ -8,9 +8,11 @@ import img3 from './../../images/image3.png'
 import img4 from './../../images/bulk.png'
 import img5 from './../../images/image 5.png'
 import img6 from './../../images/image 6.png'
+import Feature from '../Feature/Feature';
 
 const Services = () => {
     return (
+        <div>
         <div className='services'>
            <div className='air-animations'>
                     <div className="timer">
@@ -66,6 +68,8 @@ const Services = () => {
 
              </div>
             
+        </div>
+        <Feature></Feature>
         </div>
     );
 };

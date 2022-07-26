@@ -39,7 +39,7 @@
     100%{left:80%}
   }
 .card h1{
-    font-size:65px;
+    font-size:55px;
     color:#28ACA2;
 }
 .card  p span{
@@ -55,20 +55,20 @@
      
 }
 .card p{
-    width: 619px;
+    width: 500px;
     line-height: 38px;
     color:#2EBBE5;
     font-size:25px ;
 }
 .card .button{
-    width:249px;height:72px;
+    width:210px;height:60px;
     background-image:linear-gradient(90deg,#CBF231,#E3F891) ;
     font-size: 20px;
     font-weight: 700;
  
 }
 .card .button2{
-    width:249px;height:72px;
+    width:210px;height:60px;
     background:transparent;
     font-size: 20px;
     font-weight: 700;
@@ -92,8 +92,8 @@
     border-radius: 50%;
 }
 .sun{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-image:linear-gradient(90deg,#CBF231,#E3F891) ;
     z-index: 999;
 }

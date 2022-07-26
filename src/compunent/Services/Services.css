@@ -31,16 +31,19 @@
    grid-row-gap: 4rem;
 }
 .service-grid .card{
-width: 473px;
+width:350px;
 height: 774px;
-left: 138px;
-top: 537px;
+
+padding: ;
 background: #FFFFFF;
 border-radius: 29px;
 display: flex;
 align-items: center;
 justify-content: center;
 flex-flow: column;
+}
+.service-grid .card img{
+    width: 100%;
 }
 .service-grid .card h2{
 text-align: center;
@@ -55,11 +58,12 @@ font-size: 15px;
 line-height: 28px;
 letter-spacing: 0.15em;
 color: #000633;
-width: 391px;
+width: 95%;
+padding: 20px;
 height: 216px;}
 .service-grid .card button{
-    width: 219px;
-    height: 60px;
+    width: 200px;
+    height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
