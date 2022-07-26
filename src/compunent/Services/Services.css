@@ -1,7 +1,67 @@
 .services{
     background-image: linear-gradient(to right, #00052D ,#000638, #010847);
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
     padding:3rem 5rem;
+}
+.service-titel{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+   justify-content: center;
+   color:white;
+    line-height: 15px;
+   
+   
+}
+.service-titel h3{
+    letter-spacing: 5px;
+    font-size:35px;
+}
+.service-titel h1{
+    letter-spacing: 5px;
+    font-size:45px;
+}
+.service-grid{
+   margin-top: 77px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-row-gap: 4rem;
+}
+.service-grid .card{
+width: 473px;
+height: 774px;
+left: 138px;
+top: 537px;
+background: #FFFFFF;
+border-radius: 29px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: column;
+}
+.service-grid .card h2{
+text-align: center;
+letter-spacing: 0.15em;
+color: #2397CD;
+font-size: 26px;
+}
+.service-grid .card p{
+font-family: 'Poppins';
+font-style: normal;
+font-size: 15px;
+line-height: 28px;
+letter-spacing: 0.15em;
+color: #000633;
+width: 391px;
+height: 216px;}
+.service-grid .card button{
+    width: 219px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2397CD;
+border-radius: 25px;
+ font-size: 26px;
+ color: white;
+ border: none;
 }
