@@ -67,10 +67,7 @@ const Home = () => {
                     <button onClick={handleFileUpload} className='bg-green-500 text-white'>Upload</button>
                     {/* <button className='btn bg-green-500 text-white'>upload</button> */}
                     <div className="modal-action">
-                        <form method="dialog">
-                            {/* if there is a button in form, it will close the modal */}
-                            <button className="btn">submit</button>
-                        </form>
+                       
                         <form method="dialog">
                             {/* if there is a button in form, it will close the modal */}
                             <button className="btn">close</button>
