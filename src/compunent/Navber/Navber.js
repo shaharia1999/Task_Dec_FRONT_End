@@ -9,8 +9,11 @@ import {
     LinkProps
   } from "react-router-dom";
   
-import logo from './../../images/globetech logo.png'
+import logo from './../../images/logo.PNG'
+import logo2 from './../../images/logo2.PNG'
 import './Navber.css'
+import { FaFacebookF } from "react-icons/fa";
+import { AiOutlineTwitter } from "react-icons/ai";
 
 const Navber = () => {
 
@@ -20,7 +23,7 @@ const Navber = () => {
       return (
         <div >
           <Link
-            style={{ color: match ? "#CBF231" : "#2EBBE5" }}
+            style={{ color: match ? "white" : "white" }}
             to={to}
             {...props}
           >
@@ -35,14 +38,19 @@ const Navber = () => {
            <nav className='navber'>
             <div className='logo'>
                 <img src={logo} alt=""  />
-            </div>
-            <div>
-                <ul>
-                    <li><CustomLink to="/">Home</CustomLink></li>
-                    <li><CustomLink to="service">Service</CustomLink></li>
-                    <li><CustomLink to="login">Login</CustomLink></li>
+                <ul className=' justify-center items-center'>
+                    <li><CustomLink to="/">English</CustomLink></li>
+                    <li><CustomLink to="/">Sing in</CustomLink></li>
+     
                     
                 </ul>
+            </div>
+            <div className='logo'>
+              <div className='psocial'>
+            <FaFacebookF className='social' />
+            <AiOutlineTwitter className='social' />     
+            </div>      
+             <img src={logo2} alt=""  />
             </div>
            </nav>
             

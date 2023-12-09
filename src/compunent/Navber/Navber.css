@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .nav{
     width: 100%;
-    /* background-color: transparent; */
-    /* height: 100px; */
-    background-image: linear-gradient(to right, #00052D ,#000638, #010847);
-    /* position:fixed;
-    top:0;
-    right: 0%; */
+    background: #333333;
 }
 .navber{
     display: flex;
     justify-content: space-between;
-    padding:3rem 5rem;
+    /* padding:0rem 5rem; */
+   
+
+    
+}
+.navber .logo{
+    display: flex;
+    justify-content: space-between;
+    padding:0rem 5rem;
    
 
     
@@ -25,8 +28,28 @@
 .navber ul li a{
     text-decoration: none;
     margin-left: 56px;
-    font-size: 21px;
+    /* font-size: 21px; */
     font-weight: 700;
     color: #8FE5FF;
     font-family: 'Poppins';
+} 
+.psocial{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    color:white;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.social:hover{
+   transform: scale(0.8);
+   -webkit-transform: scale(0.8);
+   -moz-transform: scale(0.8);
+   -ms-transform: scale(0.8);
+   -o-transform: scale(0.8);
 }
