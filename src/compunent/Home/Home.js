@@ -247,6 +247,63 @@ const Home = () => {
                         <p>0</p>
                     </div>
                     {
+                        !data && <h1 className='text-2xl text-center mt-2'>Loading....</h1>
+                    }
+                    {
+                        data && data.map((item, index) => {
+                            return (
+                                <main className='text-[14px] mt-2 bg-white rounded-sm' key={index}>
+                                    <div className='flex justify-between px-2 mt-3 py-3'>
+                                        <div className='flex  items-center'>
+                                            <img src={item.Imag} alt='img' className='w-5 h-5 rounded-full mr-1' />
+                                            <p className='text-[14px] font-medium'>{item.FirstName}</p>
+                                        </div>
+                                        <div className='flex  items-center'>
+                                            <img src={item.Imag2} alt='img' className='w-5 h-5 rounded-full mr-1' />
+                                            <p className='text-[14px] font-medium'>{item.LastName}</p>
+                                        </div>
+
+                                    </div>
+                                    <div className='flex justify-between px-2 py-2'>
+                                        <div className='flex items-center'>
+                                            <FaDatabase className='mr-1' />
+                                            <p>Lorem Ipsum is simply </p>
+                                        </div>
+                                        <div className='flex items-center'>
+                                            <FaCalendarAlt className='mr-1' />
+                                            <p>1/2</p>
+                                        </div>
+
+                                    </div>
+                                    <div className='flex justify-between px-2 py-2'>
+                                        <div> <img src={item.Imag} alt='img' className='w-5 h-5 rounded-full' /></div>
+                                        <div> <img src={item.Imag2} alt='img' className='w-5 h-5 rounded-full' /></div>
+                                        <div><p>12 +</p></div>
+                                        <div className='flex gap-1 items-center'><TiMessages /><p>15</p></div>
+                                        <div className='flex gap-1 items-center cursor-pointer'onClick={()=>Comments(item._id)}><MdAttachFile />
+                                            <p>{item.data.length}</p></div>
+                                        <div className='flex gap-1 items-center'><FaCalendarAlt />
+                                            <p>30-12-22</p></div>
+
+                                    </div>
+                                </main>
+
+                            )
+                        })
+                    }
+                </article>
+                <article className='card px-2'>
+                    <div className='flex justify-between px-2  py-2 bg-[#F2F4F7]'>
+                        <div className='flex justify-center items-center '>
+                            <p className='incom'></p>
+                            <p className='font-semibold ml-1'>Rejected</p>
+                        </div>
+                        <p>0</p>
+                    </div>
+                    {
+                        !data && <h1 className='text-2xl text-center mt-2'>Loading....</h1>
+                    }
+                    {
                         data && data.map((item, index) => {
                             return (
                                 <main className='text-[14px] mt-2 bg-white rounded-sm' key={index}>
